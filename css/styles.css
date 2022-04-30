@@ -8,7 +8,7 @@
     --logo-text-color: #000000;
     --primary-white-color: #ffffff;
     --background-color: #2F303A;
-    --background-color-secondsry: #F5F4FA;
+    --background-color-secondary: #F5F4FA;
   }
 
 body {
@@ -78,8 +78,8 @@ a {text-decoration: none;}
 }
 
 .button {
-    color: var(--background-color-secondsry);
     color: var(--primary-text-color);
+    background-color: var(--background-color-secondary);
 }
 
 .button :hover,
