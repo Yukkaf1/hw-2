@@ -1,0 +1,114 @@
+/*Стили цвета*/
+
+:root {
+    --secondary-text-color: #757575;
+    --primary-text-color: #212121;
+    --transparent-text: rgba(255, 255, 255, 0.6);
+    --accent-color: #2196F3;
+    --logo-text-color: #000000;
+    --primary-white-color: #ffffff;
+    --background-color: #2F303A;
+    --background-color-secondsry: #F5F4FA;
+  }
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+  }
+
+  .logo {
+    color: var(--logo-text-color);
+  }
+  
+  .revers-logo {
+    color: var(--primary-white-color);
+    background-color: var(--background-color);
+  }
+
+  .logo:hover {
+    color: var(--accent-color);
+  }
+
+  .logo span {color: var(--accent-color);}
+  .revers-logo span {color: var(--accent-color);}
+
+/*Site-nav* *address-nav*/
+
+.site-nav .link:hover, 
+.site-nav .link:focus,
+.address-nav .link:hover,
+.address-nav .link:focus{
+color: var(--accent-color);
+}
+
+.site-nav .link.current,
+.address-nav .link.current{
+    color: var(--accent-color);  
+}
+
+.site-nav .link,
+.address-nav .link
+  {color: var(--primary-text-color);}
+  
+/*Футер*/
+.page-footer {
+    background-color: var(--background-color);
+}
+.footer-link {
+    color: var( --transparent-text);
+}
+
+/* Формат списков и ссылок */
+.list {list-style: none;}
+a {text-decoration: none;}
+
+/*Секция Герой*/
+.hero {
+    background-color: var(--background-color);
+}
+.hero-title {
+    color: var(--primary-white-color);
+    text-transform: uppercase;
+}
+
+/*Button*/
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button {
+    color: var(--background-color-secondsry);
+    color: var(--primary-text-color);
+}
+
+.button :hover,
+.button :focus,
+.button :active {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/*Секции*/
+.section-title {
+    color: var(--primary-text-color);
+  }
+  
+.benefits-list h3 {
+    color: var(--primary-text-color);
+    text-transform: uppercase;
+}
+.benefits-list p {
+    color: var(--secondary-text-color);
+}
+
+.section h3 {
+color: var(--primary-text-color);
+}
+.section p {
+color: var(--secondary-text-color);
+}
+
+.section a:hover {
+    background-color: var(--background-color-secondsry);
+}

@@ -5,37 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия WebStudio - IT решения для бизнеса</title>
-    <style>
-        .accent {color: blue;}
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
+    
 </head>
 <body>
 <header>
-    <nav>
-        <a href="./index.html"> <span class="accent">Web</span>Studio</a>
-       <ul>
-        <li><a href="">Студия</a></li>
-        <li><a href="./portfolio.html">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+    <nav class="site-nav">
+        <a href="./index.html" class="logo"> <span>Web</span>Studio</a>
+       <ul class="site-nav list">
+        <li><a href="./index.html" class="link current">Студия</a></li>
+        <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+        <li><a href="" class="link">Контакты</a></li>
        </ul> 
     </nav>
-    <div>
-        <a href="">info@devstudio.com</a>
-        <a href="tel:+380958550083">+38 (095) 855-00-83</a>
+    <div class="address-nav">
+        <a href="" class="link">info@devstudio.com</a>
+        <a href="tel:+380958550083" class="link">+38 (095) 855-00-83</a>
         </div> 
 </header>
 <!--Основной раздел-->
 <main>
+<!--Hero-->
 <div>
-<section>
-    <h1>Эффективные решения <br> для вашего бизнеса</h1>
-   <button type="button">Заказать услугу</button>
+<section class="hero">
+    <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
+   <button type="button" class="button primary">Заказать услугу</button>
 </section>
 </div>
 <!--Секция преимущества (заголовок скрыть пустые абзацы удалить)-->
-<section>
-    <h2>Преимущества WebStudio для вашего бизнеса</h2>
-    <ul>
+<section class="benefits-section">
+    <h2 class="section-title">Преимущества WebStudio для вашего бизнеса</h2>
+    <ul class="benefits list">
         <li><h3>Внимание к деталям</h3>
             <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p></li>
         <li><h3>Пунктуальность</h3>
@@ -46,10 +46,11 @@
             <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
     </ul>
 </section>
+
 <!--Секция услуги (пустые абзацы удалить или заполнить/скрыть)-->
-<section>
-    <h2>Чем мы занимаемся</h2>
-    <ul>
+<section class="section">
+    <h2 class="section-title">Чем мы занимаемся</h2>
+    <ul class="services list">
         <li>
             <img src="./images/main/our_services/img.jpeg" 
             alt="IT разработчик для вашего бизнеса" 
@@ -68,10 +69,10 @@
     </ul>
 </section>
 <!--Секция команда (пустые абзацы удалить или заполнить/скрыть)-->
-<section>
-    <h2>Наша команда</h2>
+<section class="section">
+    <h2 class="section-title">Наша команда</h2>
     <p></p>
-    <ul>
+    <ul class="team list">
         <li>
             <img src="./images/main/team/igor.jpeg" 
             alt="Портрет Игорь Демьяненко Product Designer"
@@ -93,13 +94,13 @@
 </section>
 </main>
 <!--Футер с адресным блоком-->
-<footer>
+<footer class="page-footer">
     <div>
-    <a href="./index.html"><span class="accent"> Web</span>Studio</a>
-    <address>
-        <p>г. Киев, пр-т Леси Украинки, 26 <br></p>
-    <a href="mailto:info@example.com">info@example.com</a> <br>
-    <a href="tel:+380958550083">+38 (095) 855-00-83></a>
+    <a href="./index.html" class="revers-logo"><span> Web</span>Studio</a>
+    <address class="address-footer">
+        <p class="footer-link">г. Киев, пр-т Леси Украинки, 26 <br></p>
+    <a href="mailto:info@example.com" class="footer-link">info@example.com</a> <br>
+    <a href="tel:+380958550083" class="footer-link">+38 (095) 855-00-83></a>
 </address>
 </div>
 </footer>
