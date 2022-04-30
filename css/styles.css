@@ -92,12 +92,15 @@ a {text-decoration: none;}
     font-weight: 900;
     line-height: 1.4;
     letter-spacing: 0,06em;
+    text-align: center;
 }
 
 /*Button*/
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    font-family: inherit;
+    text-align: center;
 }
 
 .button {
