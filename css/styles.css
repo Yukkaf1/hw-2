@@ -42,10 +42,6 @@ body {
     line-height: 1.2;
   }
 
-  .logo:hover {
-    color: var(--accent-color);
-  }
-
   .logo span {color: var(--accent-color);}
   .revers-logo span {color: var(--accent-color);}
 
@@ -75,16 +71,24 @@ color: var(--accent-color);
 .page-footer {
     background-color: var(--background-color);
 }
-.footer.link {
+.mailto-footer,
+.tel-footer {
     font-style: normal;
     color: var( --transparent-text);
     line-height: 1.75;
 }
-.address.footer p {
+
+.address-footer {
+  font-style: normal;
   color: var(--primary-white-color);
   line-height: 1.75;
 }
 
+.address-footer :hover,
+.mailto-footer :hover,
+.tel-footer :hover{
+  color: var(--accent-color);
+}
 
 /* Формат списков и ссылок */
 .list {list-style: none;}
