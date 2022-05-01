@@ -97,7 +97,7 @@ a {text-decoration: none;}
 .hero-title {
     color: var(--primary-white-color);
     text-transform: uppercase;
-    font-size: 44;
+    font-size: 44px;
     font-weight: 900;
     line-height: 1.4;
     letter-spacing: 0,06em;
@@ -114,12 +114,16 @@ line-height: 1.75;
 }
 
 /*Button*/
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
 
 .button {
   color: var(--primary-text-color);
   background-color: var(--background-color-secondary);
   font-weight: 500;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.67;
 }
 
@@ -133,38 +137,30 @@ line-height: 1.75;
     background-color: var(--accent-color);
     text-align: center;
     font-weight: 700;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
 
-}
-
-
-.button :hover,
-.button :focus,
-.button :active {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
 }
 
 /*Секции*/
 .section-title {
     color: var(--primary-text-color);
     font-weight: 700;
-    font-size: 34;
+    font-size: 34px;
     text-align: center;
   }
 
 .section h3 {
 color: var(--primary-text-color);
 font-weight: 500;
-font-size: 16;
+font-size: 16px;
 
 }
 .section p {
 color: var(--secondary-text-color);
 font-weight: 400;
-font-size: 16;
+font-size: 16px;
 }
 
 /*.section a:hover {
