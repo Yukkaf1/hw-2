@@ -71,14 +71,20 @@ color: var(--accent-color);
 
 
 /*Футер*/
+
 .page-footer {
     background-color: var(--background-color);
 }
-.footer-link {
+.footer.link {
+    font-style: normal;
     color: var( --transparent-text);
-    font-family: inherit;
     line-height: 1.75;
 }
+.address.footer p {
+  color: var(--primary-white-color);
+  line-height: 1.75;
+}
+
 
 /* Формат списков и ссылок */
 .list {list-style: none;}
@@ -108,26 +114,31 @@ line-height: 1.75;
 }
 
 /*Button*/
-.button.primary {
+
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--background-color-secondary);
+  font-weight: 500;
+  font-size: 16;
+  line-height: 1.67;
+}
+
+.button.activ {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.button-primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    font-family: inherit;
     text-align: center;
     font-weight: 700;
     font-size: 16;
     line-height: 1.9;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.06em;
 
 }
 
-.button {
-    color: var(--primary-text-color);
-    background-color: var(--background-color-secondary);
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16;
-    line-height: 1.67;
-}
 
 .button :hover,
 .button :focus,
@@ -143,14 +154,6 @@ line-height: 1.75;
     font-size: 34;
     text-align: center;
   }
-  
-.benefits-list h3 {
-    color: var(--primary-text-color);
-    text-transform: uppercase;
-}
-.benefits-list p {
-    color: var(--secondary-text-color);
-}
 
 .section h3 {
 color: var(--primary-text-color);
@@ -167,3 +170,21 @@ font-size: 16;
 /*.section a:hover {
     background-color: var(--background-color-secondsry);
 }*/
+
+/*Особенности секции Преимущества*/
+
+.benefits-list h3 {
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+}
+.benefits-list p {
+  color: var(--secondary-text-color);
+}
+
+/*Особенности секции Наша команда*/
+
+.team.list h3,
+.team.list p {
+  text-align: center;
+}
+
