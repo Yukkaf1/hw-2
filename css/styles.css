@@ -70,6 +70,7 @@ color: var(--accent-color);
 
 .page-footer {
     background-color: var(--background-color);
+    
 }
 .mailto-footer,
 .tel-footer {
@@ -110,7 +111,8 @@ a {text-decoration: none;}
 /*Секция преимущества*/
 .benefits.list h3 {
   text-transform: uppercase;
-  font-weight: 900;
+  font-size: 16px;
+  font-weight: 700;
 }
 .benefits.list p{
 color: var(--secondary-text-color);
@@ -128,7 +130,7 @@ button {
   background-color: var(--background-color-secondary);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.67;
+  line-height: 1.6;
 }
 
 .button.activ {
@@ -151,21 +153,34 @@ button {
 .section-title {
     color: var(--primary-text-color);
     font-weight: 700;
-    font-size: 34px;
+    font-size: 36px;
     text-align: center;
   }
-
 .section h3 {
 color: var(--primary-text-color);
 font-weight: 500;
 font-size: 16px;
-
 }
 .section p {
-color: var(--secondary-text-color);
-font-weight: 400;
-font-size: 16px;
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  }
+/*Секции портфолио*/
+.portfolio-section h3 {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
+.portfolio-section p {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  }
+
 
 /*.section a:hover {
     background-color: var(--background-color-secondsry);
