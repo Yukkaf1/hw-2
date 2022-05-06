@@ -115,8 +115,10 @@ a {text-decoration: none;}
 }
 /*Секция преимущества*/
 .benefits.list h3 {
+  color: var(--primary-text-color);
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 14px;
 }
 .benefits.list p{
 color: var(--secondary-text-color);
@@ -190,16 +192,6 @@ font-size: 16px;
 /*.section a:hover {
     background-color: var(--background-color-secondsry);
 }*/
-
-/*Особенности секции Преимущества*/
-
-.benefits-list h3 {
-  color: var(--primary-text-color);
-  text-transform: uppercase;
-}
-.benefits-list p {
-  color: var(--secondary-text-color);
-}
 
 /*Особенности секции Наша команда*/
 
